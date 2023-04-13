@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <section class="container">
+        <main class="container-center" id="pick-container">
+        <article class="umbrella">
+            <img src="./assets/loader_icon.svg" id="loader"/>
+            <img src="./assets/Blue umbrella.png" id="img1"/>
+            <img src="./assets/Pink umbrella.png" id="img2"/>
+            <img src="./assets/Yello umbrella (1).png" id="img3"/>
+            
+        </article>
+        <article class="picker-section">
+            <h2>custom umbrella</h2>
+            <div class="color-picker">
+                <div class="circle1" onclick="pickerHandler1()"></div>
+                <div class="circle2"onclick="pickerHandler2()" ></div>
+                <div class="circle3" onclick="pickerHandler3()"></div>
+                
+            </div>
+            <div class="customize">
+                <h4>customize your umbrella</h4>
+                <p>upload a logo for an instant preview</p>
+                <span>.png and .jpg only. Max file size is 5MB.</span>
+                
+            </div>
+            <button class="btn" id="btn">
+                <input type="file" id="myFile" name="filename" class="upload"><img src="/assets//upload_icon.svg" class="icon" />
+                upload logo</button>
+        </article>
+         </main>
+ 
+        
+    </section>
+
+
+</body>
+</html>
